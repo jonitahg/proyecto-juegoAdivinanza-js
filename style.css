@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+:root {
+	--primary: #333;
+	--secondary: rgb(243, 243, 243);
+	--green: #4caf50;
+}
+
+* {
+	box-sizing: inherit;
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+  background-color: #c8ffca;
+	font-family: 'poppins', Arial, Helvetica, sans-serif;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+  box-shadow: 0px 0px 5px 1px var(--primary);
+  height: 290px;
+	border-radius: 20px;
+	padding: 40px 40px 0px 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #333;
+}
+
+h1 {
+  color: var(--secondary);
+	text-shadow: 0px 0cqb 10px var(--green);
+}
+
+.des {
+	margin: 15px 0px;
+	color: var(--green);
+	font-size: 18px;
+}
+
+input {
+	margin-bottom: 10px;
+	padding: 5px 10px;
+	font-size: 16px;
+	outline: none;
+	border-radius: 20px;
+	border: none;
+	box-shadow: 0px 0px 5px 1px var(--green);
+	background-color: var(--primary);
+	color: var(--green);
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+	appearance: none;
+	-webkit-appearance: none;
+	margin: 0; /* Puede ser necesario para algunos navegadores */
+}
+
+button {
+	padding: 5px 20px;
+	background-color: var(--green);
+	color: var(--primary);
+	border: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-radius: 20px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+button:hover {
+	background-color: #5acf5e;
+	color: #404738;
+	box-shadow: 0px 0px 5px 1px var(--green);
+}
+
+#mensaje {
+  margin-top: 10px;	
+  font-size: 18px;
+}
