@@ -1,21 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="style.css" />
+
 		<title>Juego de adivinar el número</title>
+		<link rel="stylesheet" href="style.css" />
 	</head>
 
 	<body>
+		<header>
+			<div class="life">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					class="icon icon-tabler icon-tabler-heart"
+					width="44"
+					height="44"
+					viewBox="0 0 24 24"
+					stroke-width="1.5"
+					stroke="#2c3e50"
+					fill="none"
+					stroke-linecap="round"
+					stroke-linejoin="round">
+					<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+					<path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+				</svg>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					class="icon icon-tabler icon-tabler-heart"
+					width="44"
+					height="44"
+					viewBox="0 0 24 24"
+					stroke-width="1.5"
+					stroke="#2c3e50"
+					fill="none"
+					stroke-linecap="round"
+					stroke-linejoin="round">
+					<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+					<path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+				</svg>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					class="icon icon-tabler icon-tabler-heart"
+					width="44"
+					height="44"
+					viewBox="0 0 24 24"
+					stroke-width="1.5"
+					stroke="#2c3e50"
+					fill="none"
+					stroke-linecap="round"
+					stroke-linejoin="round">
+					<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+					<path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+				</svg>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					class="icon icon-tabler icon-tabler-heart"
+					width="44"
+					height="44"
+					viewBox="0 0 24 24"
+					stroke-width="1.5"
+					stroke="#2c3e50"
+					fill="none"
+					stroke-linecap="round"
+					stroke-linejoin="round">
+					<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+					<path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+				</svg>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					class="icon icon-tabler icon-tabler-heart"
+					width="44"
+					height="44"
+					viewBox="0 0 24 24"
+					stroke-width="1.5"
+					stroke="#2c3e50"
+					fill="none"
+					stroke-linecap="round"
+					stroke-linejoin="round">
+					<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+					<path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+				</svg>
+			</div>
+		</header>
 		<div class="container">
 			<h1>Adivina el número</h1>
-
 			<p class="des">Introduce un número entre 1 y 100:</p>
 			<input type="number" id="numeroEntrada" />
-			<button>Comprobar</button>
+			<button id="button">Comprobar</button>
 			<p id="mensaje"></p>
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				class="replay"
+				width="44"
+				height="44"
+				viewBox="0 0 24 24"
+				stroke-width="1.5"
+				stroke="currentColor"
+				fill="none"
+				stroke-linecap="round"
+				stroke-linejoin="round">
+				<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+				<path d="M4.05 11a8 8 0 1 1 .5 4m-.5 5v-5h5" />
+			</svg>
 		</div>
 
 		<script src="script.js"></script>
